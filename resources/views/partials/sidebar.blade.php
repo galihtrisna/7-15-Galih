@@ -4,7 +4,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="{{ asset('admin/images//icon/logo.png') }}"" alt="CoolAdmin" />
+                            <img src="{{ asset('admin/images//icon/logo.png') }}" alt="CoolAdmin" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -36,8 +36,8 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                            <a href="{{ route('contacts.index')}}">
+                                <i class="fas fa-chart-bar"></i>Data Contacts Us</a>
                         </li>
                         <li>
                             <a href="table.html">
@@ -142,8 +142,8 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                            <a href="{{ route ('contacts.index')}}">
+                                <i class="fas fa-chart-bar"></i>Data Contacts Us</a>
                         </li>
                         <li>
                             <a href="table.html">
